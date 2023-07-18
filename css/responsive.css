@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-menu a{
+        margin-bottom: 10px;
+    }
+    .nav-menu .login{
+        width: 100%;
+    }
+    /* navbar response ends here */
+
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img, .banner-title{
+        margin-top: 20px;
+        width: 100%;
+    }
+}

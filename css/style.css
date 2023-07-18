@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #9376e0;
+}
+.nav-container{
+    min-height: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-title img{
+    width: 50px;
+    object-fit: cover;
+}
+.nav-container .name{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.nav-container .hive{
+    color: #e893cf;
+}
+.nav-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-menu a:hover{
+    color: black;
+}
+.nav-menu .login{
+    background-color: #e893cf;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.login:hover{
+    background-color: #e73ab3;
+}
+/* navbar style ends here */
+
+.banner-container{
+    min-height: 50px;
+    max-width: 1440px;
+    margin: 40px auto 0;
+    display: flex;
+    background-color: #e6e9eb;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner-title{
+    width: 50%;
+    text-align: center;
+}
+.banner-title h1{
+    background-image: linear-gradient(#9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.banner-img{
+    width: 50%;  
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.banner-title p{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.icons{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto 10px;
+}
+.fb{
+    color: blue;
+    cursor: pointer;
+}
+.twi{
+    color: skyblue;
+    cursor: pointer;
+}
+.yt{
+    color: red;
+    cursor: pointer;
+}
+.ins{
+    color: purple;
+    cursor: pointer;
+}
+.banner-button{
+    background-color: transparent;
+    border: 1px solid #9376e0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.banner-button:hover{
+    background-color: rgb(224, 217, 217);
+}
